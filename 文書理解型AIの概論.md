@@ -1,5 +1,17 @@
-# 文書理解型AIの概論
+# An Introduction to Document Understanding AI
 
+## Summary
+
+生成AIの普及に伴い、複数の業務文書を横断的に読み取り、解釈・統合する「文書理解型AI」が注目を集めている。しかし、多くの既存ツールはクラウド利用を前提としており、機密性の高い業務文書への適用には制約がある。
+本レポートでは、特定のツールに依存しない観点から文書理解型AIの本質を整理し、チャット型AIとの違いを明確にした上で、文書理解が成立するために必要な4つの条件を導出した。続編レポート「VSCode＋GitHub Copilotによる文書理解型AI環境の実装と評価」では、これらの条件が実運用環境においてどのように実現・検証できるかを示す。
+
+With the widespread adoption of generative AI, Document Understanding AI—which reads, interprets, and integrates multiple business documents across different sources—has attracted increasing attention. However, because most existing solutions are cloud-based, their application to confidential business documents remains limited.
+This report examines the fundamental nature of Document Understanding AI in a tool-agnostic manner, clearly distinguishing it from chat-based AI, and derives four essential conditions required for effective document understanding. A companion report, “Implementation and Evaluation of a Document Understanding AI Environment Using VSCode and GitHub Copilot,” investigates how these conditions can be realized and validated in a practical working environment.
+## Keywords
+
+文書理解型AI, 生成AI, チャット型AI, 大規模言語モデル (LLM), ナレッジマネジメント, グラウンデッドQ&A, NotebookLM, 業務文書処理
+
+Document Understanding AI, Generative AI, Chat-based AI, Large Language Model (LLM), Knowledge Management, Grounded Question Answering, NotebookLM, Business Document Processing
 # 第1章　背景と問題意識
 
 ## 1.1 生成AI活用の進展と業務文書処理の変化
